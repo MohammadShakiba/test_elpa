@@ -2,7 +2,7 @@
 
 
 In this repository, I want to test ELPA to diagonalize a large matrix. This code reads a numpy array, 
-using (`cnpy` library)[https://github.com/rogersce/cnpy]. Then diagonalizes it using ELPA and saves the eigenvalues and eigenvectors in `.npy` format. The comparison of the `numpy` diagonalized array and ELPA diagonalized array.
+using [`cnpy` library](https://github.com/rogersce/cnpy). Then diagonalizes it using ELPA and saves the eigenvalues and eigenvectors in `.npy` format. The comparison of the `numpy` diagonalized array and ELPA diagonalized array.
 
 The name of the file is `src/read_numpy.cpp` (the naming should have been better but anyways :)). It was just for me to get familiarized with MPI programming, BLACS, and ELPA which is similar to ScaLAPACK. 
 
