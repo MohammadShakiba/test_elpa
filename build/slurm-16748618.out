@@ -1,0 +1,71 @@
+Mon Aug  5 09:42:40 AM EDT 2024
+cpn-i14-33.core.ccr.buffalo.edu:rank1.diagonalize: unknown link speed 0x80
+cpn-i14-33.core.ccr.buffalo.edu:rank2.diagonalize: unknown link speed 0x80
+cpn-i14-33.core.ccr.buffalo.edu:rank3.diagonalize: unknown link speed 0x80
+cpn-i14-33.core.ccr.buffalo.edu:rank0.diagonalize: unknown link speed 0x80
+cpn-i14-33.core.ccr.buffalo.edu:rank3.diagonalize: unknown link speed 0x80
+cpn-i14-33.core.ccr.buffalo.edu:rank0.diagonalize: unknown link speed 0x80
+cpn-i14-33.core.ccr.buffalo.edu:rank1.diagonalize: unknown link speed 0x80
+cpn-i14-33.core.ccr.buffalo.edu:rank2.diagonalize: unknown link speed 0x80
+[1722865361.292271] [cpn-i14-33:714294:0]        ib_iface.c:1673 UCX  ERROR Invalid active_speed on mlx5_0:1: 128
+[cpn-i14-33.core.ccr.buffalo.edu:714294] pml_ucx.c:309  Error: Failed to create UCP worker
+[1722865361.297025] [cpn-i14-33:714291:0]        ib_iface.c:1673 UCX  ERROR Invalid active_speed on mlx5_0:1: 128
+[cpn-i14-33.core.ccr.buffalo.edu:714291] pml_ucx.c:309  Error: Failed to create UCP worker
+[1722865361.300212] [cpn-i14-33:714292:0]        ib_iface.c:1673 UCX  ERROR Invalid active_speed on mlx5_0:1: 128
+[cpn-i14-33.core.ccr.buffalo.edu:714292] pml_ucx.c:309  Error: Failed to create UCP worker
+[1722865361.307168] [cpn-i14-33:714293:0]        ib_iface.c:1673 UCX  ERROR Invalid active_speed on mlx5_0:1: 128
+[cpn-i14-33.core.ccr.buffalo.edu:714293] pml_ucx.c:309  Error: Failed to create UCP worker
+ Hello world! 3
+ Hello world! 1
+ Hello world! 2
+ Hello world! 0
+Rank 0
+myrank : 1  arr_size 9734400
+myrank : 0  arr_size 9734400
+myrank : 2  arr_size 9734400
+myrank : 3  arr_size 9734400
+Flag x npload
+Flag y extracting data
+Flag x npload
+Flag y extracting data
+Flag x npload
+Flag y extracting data
+Flag x npload
+Flag y extracting data
+myrank : 0  data1 -0.000153027
+myrank : 1  data1 3.76105e-05
+myrank : 2  data1 0.000435625
+myrank : 3  data1 -0.000248907
+Process number: 0
+Process number: 3
+Process number: 1
+BLACS context: 0
+Process number: 2
+BLACS context: 0
+BLACS context: 0
+BLACS context: 0
+Process (0, 1) out of (2, 2) in the BLACS process grid. myrank1:1 myrank:1 context:0
+Process (1, 0) out of (2, 2) in the BLACS process grid. myrank1:2 myrank:2 context:0
+Process (0, 0) out of (2, 2) in the BLACS process grid. myrank1:0 myrank:0 context:0
+Process (1, 1) out of (2, 2) in the BLACS process grid. myrank1:3 myrank:3 context:0
+Flag 0 lld: 1560
+Flag 1
+Flag 0 lld: 1560
+Flag 1
+Flag 0 lld: 1560
+Flag 1
+Flag 0 lld: 1560
+Flag 1
+Flag 2
+Flag 2
+Flag 2
+Flag 2
+Flag 3
+Flag 4 values of data1_loc0.0561768
+Flag 3
+Flag 4 values of data1_loc-9.12694e-05
+Flag 3
+Flag 4 values of data1_loc-0.420837
+Flag 3
+Flag 4 values of data1_loc-9.12694e-05
+Mon Aug  5 09:42:46 AM EDT 2024

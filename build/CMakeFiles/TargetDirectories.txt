@@ -1,0 +1,16 @@
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/CMakeFiles/diagonalize.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/CMakeFiles/edit_cache.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/CMakeFiles/rebuild_cache.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/CMakeFiles/list_install_components.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/CMakeFiles/install.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/CMakeFiles/install/local.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/CMakeFiles/install/strip.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/cnpy.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/cnpy-static.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/example1.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/edit_cache.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/rebuild_cache.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/list_install_components.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/install.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/install/local.dir
+/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy/CMakeFiles/install/strip.dir

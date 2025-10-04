@@ -1,0 +1,2 @@
+/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/usr/bin/ar qc libcnpy.a "CMakeFiles/cnpy-static.dir/cnpy.cpp.o"
+/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/usr/bin/ranlib libcnpy.a

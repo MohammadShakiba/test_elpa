@@ -1,0 +1,1 @@
+/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/Compiler/gcc/11.2.0/openmpi/4.1.1/bin/mpicxx  -std=c++11 -rdynamic CMakeFiles/example1.dir/example1.cpp.o -o example1  -Wl,-rpath,/projects/academic/alexeyak/mohammad/my_repositories/test/build/cnpy libcnpy.so -lz 

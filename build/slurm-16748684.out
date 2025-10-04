@@ -1,0 +1,100 @@
+Mon Aug  5 09:52:40 AM EDT 2024
+cpn-i15-13.core.ccr.buffalo.edu:rank3.diagonalize: unknown link speed 0x80
+cpn-i15-13.core.ccr.buffalo.edu:rank0.diagonalize: unknown link speed 0x80
+cpn-i15-13.core.ccr.buffalo.edu:rank2.diagonalize: unknown link speed 0x80
+cpn-i15-13.core.ccr.buffalo.edu:rank1.diagonalize: unknown link speed 0x80
+cpn-i15-13.core.ccr.buffalo.edu:rank2.diagonalize: unknown link speed 0x80
+cpn-i15-13.core.ccr.buffalo.edu:rank1.diagonalize: unknown link speed 0x80
+cpn-i15-13.core.ccr.buffalo.edu:rank3.diagonalize: unknown link speed 0x80
+cpn-i15-13.core.ccr.buffalo.edu:rank0.diagonalize: unknown link speed 0x80
+[1722865962.603722] [cpn-i15-13:481370:0]        ib_iface.c:1673 UCX  ERROR Invalid active_speed on mlx5_0:1: 128
+[1722865962.604176] [cpn-i15-13:481369:0]        ib_iface.c:1673 UCX  ERROR Invalid active_speed on mlx5_0:1: 128
+[cpn-i15-13.core.ccr.buffalo.edu:481370] pml_ucx.c:309  Error: Failed to create UCP worker
+[cpn-i15-13.core.ccr.buffalo.edu:481369] pml_ucx.c:309  Error: Failed to create UCP worker
+[1722865962.606246] [cpn-i15-13:481371:0]        ib_iface.c:1673 UCX  ERROR Invalid active_speed on mlx5_0:1: 128
+[cpn-i15-13.core.ccr.buffalo.edu:481371] pml_ucx.c:309  Error: Failed to create UCP worker
+[1722865962.610587] [cpn-i15-13:481368:0]        ib_iface.c:1673 UCX  ERROR Invalid active_speed on mlx5_0:1: 128
+[cpn-i15-13.core.ccr.buffalo.edu:481368] pml_ucx.c:309  Error: Failed to create UCP worker
+ Hello world! 3
+ Hello world! 2
+ Hello world! 0
+ Hello world! 1
+Rank 0
+myrank : 1  arr_size 49280400
+myrank : 0  arr_size 49280400
+myrank : 3  arr_size 49280400
+myrank : 2  arr_size 49280400
+Flag x npload
+Flag y extracting data
+Flag x npload
+Flag y extracting data
+Flag x npload
+Flag y extracting data
+Flag x npload
+Flag y extracting data
+myrank : 0  data1 -2.8691e-06
+myrank : 1  data1 -3.3617e-06
+myrank : 2  data1 -1.9182e-06
+myrank : 3  data1 -2.0348e-06
+Process number: 0
+BLACS context: 0
+Process number: 1
+BLACS context: 0
+Process number: 2
+BLACS context: 0
+Process number: 3
+BLACS context: 0
+Process (0, 1) out of (2, 2) in the BLACS process grid. myrank1:1 myrank:1 context:0
+Process (1, 1) out of (2, 2) in the BLACS process grid. myrank1:3 myrank:3 context:0
+Process (0, 0) out of (2, 2) in the BLACS process grid. myrank1:0 myrank:0 context:0
+Process (1, 0) out of (2, 2) in the BLACS process grid. myrank1:2 myrank:2 context:0
+Flag 0 lld: 3500
+Flag 1
+Flag 0 lld: 3520
+Flag 1
+Flag 0 lld: 3520
+Flag 1
+Flag 0 lld: 3500
+Flag 1
+Flag 2
+Flag 2
+Flag 2
+Flag 2
+Flag 3
+Flag 4 values of data1_loc0.0665059
+Flag 3
+Flag 4 values of data1_loc1.4062e-06
+Flag 3
+Flag 4 values of data1_loc1.4062e-06
+Flag 3
+Flag 4 values of data1_loc-0.404168
+munmap_chunk(): invalid pointer
+[cpn-i15-13:481370] *** Process received signal ***
+[cpn-i15-13:481370] Signal: Aborted (6)
+[cpn-i15-13:481370] Signal code:  (-6)
+[cpn-i15-13:481370] [ 0] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(+0x3dcb0)[0x14d94f1c0cb0]
+[cpn-i15-13:481370] [ 1] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(+0x89adf)[0x14d94f20cadf]
+[cpn-i15-13:481370] [ 2] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(raise+0x12)[0x14d94f1c0c12]
+[cpn-i15-13:481370] [ 3] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(abort+0xd3)[0x14d94f1ab46d]
+[cpn-i15-13:481370] [ 4] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(+0x7dd18)[0x14d94f200d18]
+[cpn-i15-13:481370] [ 5] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(+0x9369a)[0x14d94f21669a]
+[cpn-i15-13:481370] [ 6] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(+0x938bc)[0x14d94f2168bc]
+[cpn-i15-13:481370] [ 7] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(free+0xb8)[0x14d94f21ae58]
+[cpn-i15-13:481370] [ 8] ./diagonalize[0x40c560]
+[cpn-i15-13:481370] [ 9] ./diagonalize[0x40b89d]
+[cpn-i15-13:481370] [10] ./diagonalize[0x40ab86]
+[cpn-i15-13:481370] [11] ./diagonalize[0x4096f0]
+[cpn-i15-13:481370] [12] ./diagonalize[0x408995]
+[cpn-i15-13:481370] [13] ./diagonalize[0x407f90]
+[cpn-i15-13:481370] [14] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(+0x2920a)[0x14d94f1ac20a]
+[cpn-i15-13:481370] [15] /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/compat/lib64/libc.so.6(__libc_start_main+0x7c)[0x14d94f1ac2bc]
+[cpn-i15-13:481370] [16] ./diagonalize[0x406e71]
+[cpn-i15-13:481370] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 481370 on node cpn-i15-13 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+Mon Aug  5 09:53:17 AM EDT 2024

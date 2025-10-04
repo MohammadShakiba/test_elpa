@@ -1,0 +1,27 @@
+#!/bin/sh -l
+#SBATCH --account=alexeyak
+##SBATCH --partition=valhalla  --qos=valhalla
+##SBATCH --clusters=faculty
+#SBATCH --partition=general-compute  --qos=general-compute
+#SBATCH --clusters=ub-hpc
+##SBATCH --partition=scavenger  --qos=scavenger
+#SBATCH --time=00:10:00 
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+##SBATCH --constraint=AVX2
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128000
+#SBATCH --constraint=AVX512
+###SBATCH --mail-user=mshakiba@buffalo.edu
+
+#module use /projects/academic/cyberwksp21/MODULES
+#module load cp2k/v24/avx512
+
+module load foss scipy-bundle matplotlib h5py scikit-learn imkl
+export LD_LIBRARY_PATH=/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/scalapack/2.1.0-fb/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/Compiler/gcccore/11.2.0/python/3.9.6/lib:$LD_LIBRARY_PATH
+
+#sleep 10000
+date
+mpirun -np 4 ./diagonalize
+date
